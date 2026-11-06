@@ -1,0 +1,11 @@
+# Receta (alambique):
+#   Pocion rara (verruga del nether) + Fragmento de Reaparicion -> Pocion de Keep Inventory
+#   + polvora                                                   -> arrojadiza
+#   + aliento de dragon                                         -> persistente
+#
+# El Fragmento de Reaparicion viene del datapack (soulshards:respawn_fragment).
+# Se reconoce por su item base y por su item_model; deben coincidir con el datapack.
+brewing:
+  enabled: true
+  fragment-material: COMMAND_BLOCK_MINECART
+  fragment-item-model: "soulshards:respawn_fragment"

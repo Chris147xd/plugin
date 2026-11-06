@@ -1,0 +1,14 @@
+name: KeepInventoryPotion
+version: 1.0.0
+main: dev.keepinv.KeepInventoryPotion
+api-version: '26.2'
+description: Pocion que conserva todo el inventario al morir (se consume al morir).
+commands:
+  keepinv:
+    description: Da pociones de Keep Inventory
+    usage: /keepinv give <jugador> <normal|splash|lingering> [cantidad]
+    permission: keepinv.give
+permissions:
+  keepinv.give:
+    description: Permite dar pociones de Keep Inventory
+    default: op
